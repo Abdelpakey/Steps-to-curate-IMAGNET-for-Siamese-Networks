@@ -25,7 +25,7 @@ These steps taken from [here] (https://github.com/bertinetto/siamese-fc/tree/mas
  
  6. Run 'parse_objects.m' for all 5 folders.
 
--7. Run `vid_setup_data.m' to generate your own `imdb_video.mat`. Otherwise download the one we have already created - [here](http://bit.ly/imdb_video) for the one used for the ECCV'16 SiamFC, [here](http://bit.ly/cfnet_imdb_video) for the one used for the CVPR'17 CFNet.
+7. Run `vid_setup_data.m' to generate your own `imdb_video.mat`. Otherwise download the one we have already created - [here](http://bit.ly/imdb_video) for the one used for the ECCV'16 SiamFC, [here](http://bit.ly/cfnet_imdb_video) for the one used for the CVPR'17 CFNet.
 
 -7bis. (only for CVPR'17 CFNet code) Add a field `.set` which is 1 for ILSVRC15-VID training videos (folders `a`, `b`, `c` and `d`)and 2 for ILSVRC15-VID validation videos (folder `e`) (to not be confused with the validation videos used during tracking evaluation, which instead come from VOT and TempleColor). For ECCV'16 SiamFC the training/validation split was decided only inside `experiment.m` code.
 
