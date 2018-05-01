@@ -1,6 +1,6 @@
 # Steps-to-curate-IMAGNET-for-Siamese-Networks
 
-These steps taken from [here] (https://github.com/bertinetto/siamese-fc/tree/master/ILSVRC15-curation)
+These steps taken from [this page](http://www.image-net.org/download-images)
 
 
 ### Step-by-step instructions to create your own curated ILSVRC15 dataset
