@@ -1,0 +1,37 @@
+...
+Starts from step 4
+open GIT 
+cd /E  ===> for eaxmple to your path whiach contains your files (video_ids.sh)
+
+sh video_ids.sh
+
+before running  matlab files; run a bulic path once in matlab 
+
+addpath(genpath('.../...'))
+
+step 5 
+
+per_frame_annotation('F:\ENTIREIMGNET\ILSVRC2015\', 4)
+
+step 6
+parse_objects('F:\ENTIREIMGNET\ILSVRC2015\', 1)
+parse_objects('F:\ENTIREIMGNET\ILSVRC2015\', 2)
+parse_objects('F:\ENTIREIMGNET\ILSVRC2015\', 3)
+parse_objects('F:\ENTIREIMGNET\ILSVRC2015\', 4)
+
+step 7
+
+vid_setup_data('F:\ENTIREIMGNET\ILSVRC2015\')
+
+...
+
+step 9
+
+in Matlab 
+imdb_video = load('imdb_video.mat')
+save_crops(imdb_video, 1 or any number eg. 3862(starts from folder e) , 4417, 'F:/ENTIREIMGNET/ILSVRC2015/', 'F:/CuratedEntireIMGNET/')
+
+step 10
+
+vid_image_stats(imdb_video, 0.1, 'E:\IMGNET\ILSVRC2015\CuratedData')
+
